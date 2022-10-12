@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <link rel="shortcut icon" href="./assets/img/emoji-laughing-fill.svg"/>
+        <meta charset="UTF-8">
+        <title>TP API : Joke</title>
+        <!-- Utilisation de bootstrap pour la mise en forme -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" >
+        <!-- Feuille de sytle "surcharge" -->
+        <link href="assets/css/style.css" rel="stylesheet" >
+  </head>
+  <body class=".bg-dark">
+    <!-- 
+      [Début] Code de la barre d'entête provenance des exemple bootstrap :
+      https://getbootstrap.com/docs/5.2/examples/headers/
+    -->
+    <header class="p-3 text-bg-dark">
+      <div class="container">
+          <div class="text-end">
+            <button type="button" class="btn btn-outline-light me-2" onclick="newJoke();">Nouvelle blague</button>
+          </div>
+      </div>
+    </header>
+    <!-- [FIN] Code de la barre d'entête -->
+
+
+    <!-- Tableau en bootstrap https://getbootstrap.com/docs/5.2/content/tables/ -->
+    <table class="table table-dark table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Catégorie</th> <!-- Afficher le genre de la blague sous la forme d'un icon -->
+            <th scope="col">Blague</th> <!-- Affichage des blagues -->
+            <th scope="col">Edition</th> <!-- Bouton d'édition d'une blague -->
+          </tr>
+        </thead>
+        <tbody id='jokeLines'> 
+            <!-- Données issues du JSON -->
+        </tbody>
+      </table>
+    
+    <!-- Appel script // @TODO : A FAIRE LORS DU CLIC SUR UN BOUTON -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Appel script JS bootstrap.bundle.min.js-->
+    <script  src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- <p class="p-3 text-warning"></p> -->
+    <p class="p-3 text-warning">
+      Créer par Gabin BROCHARD
+      <br>
+      Ce site utilise l'API JokeAPI - <a href="https://v2.jokeapi.dev" class="link-warning">https://v2.jokeapi.dev</a>
+    </p>
+    
+  </body>
+</html>

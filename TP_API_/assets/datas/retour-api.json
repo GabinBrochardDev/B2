@@ -1,0 +1,18 @@
+{
+    "error": false,
+    "category": "Misc",
+    "type": "twopart",
+    "setup": "Qu'est-ce qu'un éléphant dit à un homme tout nu?",
+    "delivery": "Et tu arrives à attraper des cacahuètes avec ça?",
+    "flags": {
+        "nsfw": false,
+        "religious": false,
+        "political": false,
+        "racist": false,
+        "sexist": false,
+        "explicit": false
+    },
+    "safe": true,
+    "id": 69,
+    "lang": "fr"
+}

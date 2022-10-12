@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" >
+  </head>
+  <body>
+    <h1>Cours sur les APIs !</h1>
+    
+    <!-- Tableau en bootstrap https://getbootstrap.com/docs/5.2/content/tables/ -->
+    <table class="table table-striped table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Nom d'utilisateur</th>
+            <th scope="col">Genre</th> <!-- Affichage avec une icon du genre, icône à prendre sur Nounproject-->
+            <th scope="col">Nom</th> <!-- Concaténation du nom et du prénom -->
+            <th scope="col">Photo</th> <!-- Photo en arrondi et avec une taille correct => Bootstrap-->
+            <th scope="col">Ville</th> <!-- Nom de la ville -->
+
+            <!-- Bonnus -->
+            <th scope="col">Pays</th> <!-- Affichage de l'image du drapeau du pays => API ??? -->
+          </tr>
+        </thead>
+        <tbody id='userLines'>
+            <!-- Données issues du JSON -->
+        </tbody>
+      </table>
+    
+    <!-- Appel script -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Appel script JS bootstrap.bundle.min.js-->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
